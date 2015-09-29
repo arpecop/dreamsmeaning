@@ -4,6 +4,7 @@ body {
 .content {
   float:left;
   width: 70%;
+  font-weight: 600;
 }
 .side {
   float: right;
