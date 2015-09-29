@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto";
+}
+.content {
+  float:left;
+  width: 70%;
+}
+.side {
+  float: right;
+  width: 30%;
+}
