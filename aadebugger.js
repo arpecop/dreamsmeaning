@@ -4,7 +4,7 @@ window.onerror = function (message, file, line, col, error) {
   return false;
 };
 window.addEventListener("error", function (e) {
-  alert(e.error.message);
  
+  console.log(e.error.message);
   return false;
 })
