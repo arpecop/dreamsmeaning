@@ -1,5 +1,9 @@
 window.onerror = function (message, file, line, col, error) {
-    console.log(message);
+  
   return false;
 };
+window.addEventListener('error', function(event) {
+
+  console.log(event);
+})
  
