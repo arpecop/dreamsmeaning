@@ -8,7 +8,7 @@ workflow "New workflow" {
 
 action "Create an issue" {
   uses = "JasonEtco/create-an-issue@306d0d8fece95b6492f5c74b8cb36e5fb5f9e1b5"
-  runs = "ls"
+  secrets = ["GITHUB_TOKEN"]
 }
 
 action "GitHub Action for Heroku" {
